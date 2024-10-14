@@ -1,7 +1,0 @@
-User-agent: Googlebot
-Disallow: /api/
-
-User-agent: *
-Allow: /
-
-Sitemap: https://reactnative.directory/sitemap.xml
