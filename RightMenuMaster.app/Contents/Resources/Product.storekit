@@ -1,0 +1,171 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "7A9766D1",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "24.99",
+      "familyShareable" : false,
+      "internalID" : "5F33CF7D",
+      "localizations" : [
+        {
+          "description" : "Lifetime to unlock all features",
+          "displayName" : "All Access Lifetime",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "付费终生解锁所有功能",
+          "displayName" : "全功能终生",
+          "locale" : "zh_CN"
+        }
+      ],
+      "productID" : "com.wangchujiang.rightmenu.master.lifetime",
+      "referenceName" : "RightMenu Master - Lifetime",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "5FBDD4A7",
+      "localizations" : [
+
+      ],
+      "name" : "RightMenu Master",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DB0EF08D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Subscribe monthly to unlock all features",
+              "displayName" : "All Access Monthly",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "按月订阅付费解锁所有功能",
+              "displayName" : "全功能包月",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "com.wangchujiang.rightmenu.master.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "RightMenu Master - All Access Monthly",
+          "subscriptionGroupID" : "5FBDD4A7",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "E62B3FF9",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Subscribe annually to unlock all features",
+              "displayName" : "All Access Annually",
+              "locale" : "en_US"
+            },
+            {
+              "description" : "按年订阅付费解锁所有功能",
+              "displayName" : "全功能包年",
+              "locale" : "zh_CN"
+            }
+          ],
+          "productID" : "com.wangchujiang.rightmenu.master.annually",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "RightMenu Master - All Access Annually",
+          "subscriptionGroupID" : "5FBDD4A7",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}
